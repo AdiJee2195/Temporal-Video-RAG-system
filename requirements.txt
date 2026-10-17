@@ -1,0 +1,16 @@
+# --- Install PyTorch FIRST with CUDA support (not via this file) ---
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#
+# Then: pip install -r requirements.txt
+
+# Pinned: Florence-2's remote code breaks on newer transformers releases
+transformers==4.49.0
+einops
+timm
+pillow
+numpy<2
+
+opencv-python
+chromadb
+streamlit
+requests

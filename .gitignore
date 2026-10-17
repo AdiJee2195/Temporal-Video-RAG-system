@@ -218,3 +218,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Temporal Video RAG project-specific ---
+# Local vector database (regenerate with `python ingest.py`)
+chroma_db/
+
+# Video files (large; add your own sample_video.mp4 locally)
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+
+# Local model caches and weights
+AI_Models_Cache/
+*.safetensors
+*.bin
+*.onnx
+
+# Logs and OS files
+*.log
+Thumbs.db
+.DS_Store
+desktop.ini
